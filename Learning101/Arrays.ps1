@@ -1,4 +1,4 @@
-$Jedi = @('Obi-wan','Luke','Yoda','Mace')
+$Jedi = @('Obi-wan', 'Luke', 'Yoda', 'Mace')
 
 $Jedi
 $Jedi.GetType()

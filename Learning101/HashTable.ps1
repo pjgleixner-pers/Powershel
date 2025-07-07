@@ -1,12 +1,12 @@
-$Fellowship = @{ "Wizzard" = "Gandalf" ; "Hobbit" = "Frodo" ; "Elf" = "Legolas"; "EvilWizzard" = "Sauron"}
+$Fellowship = @{ "Wizzard" = "Gandalf" ; "Hobbit" = "Frodo" ; "Elf" = "Legolas"; "EvilWizzard" = "Sauron" }
 #$Fellowship
 
 #Add
-$Fellowship.Add("Dwarf","Gimli")
+$Fellowship.Add("Dwarf", "Gimli")
 #$Fellowship
 
 #edit
-$Fellowship.Set_Item("Dwarf","Bilbo")
+$Fellowship.Set_Item("Dwarf", "Bilbo")
 #$Fellowship
 
 #$Fellowship.Hobbit
