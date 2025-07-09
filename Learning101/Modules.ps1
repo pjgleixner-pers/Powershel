@@ -1,6 +1,6 @@
-Import-Module C:\Users\pjgle\Documents\Develop\PowerShell\Powershel\SQLModule\SQLModule.psm1 -Force
+Import-Module #TODO:  add path 
 
-$Connection=Connect-SQLServer -InstanceName "PIETERPC" -DatabaseName "Logging" -IntergratedSecurity $true
+$Connection=Connect-SQLServer -InstanceName "SERVERNAME" -DatabaseName "Logging" -IntergratedSecurity $true
 
 Close-SQLServerConnection -Connection $Connection
 
